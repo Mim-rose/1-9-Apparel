@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Dynamic Product Filter - Next.js & Supabase
 
-## Getting Started
+A modern, full-stack e-commerce product filtering system with real-time search, category filtering, and dynamic sorting. Built with Next.js 14 App Router and Supabase backend.
 
-First, run the development server:
+## 🔗 Live Demo
+[View on Vercel](https://your-vercel-project-url.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔍 **Real-time Search** - Instant product filtering by title  
+- 🏷️ **Category Filter** - Filter by T-shirts, Hoodies, Joggers  
+- 📊 **Dynamic Sorting** - Sort by price (low/high) or newest first  
+- 🔗 **URL State Persistence** - Shareable links with filter states  
+- 📱 **Fully Responsive** - Works on desktop, tablet, and mobile  
+- ⚡ **Optimized Performance** - Server-side rendering and image optimization  
+- 🎨 **Modern UI** - Clean design with Tailwind CSS  
+- 🔒 **Secure Backend** - Row Level Security with Supabase  
+- 🚀 **Fast Loading** - Lazy loading images and efficient queries  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)  
+- **Language:** [TypeScript](https://www.typescriptlang.org/)  
+- **UI Library:** [React 19](https://react.dev/)  
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)  
+- **State Management:** URL Search Params (no external library needed)  
 
-## Learn More
+### Backend
+- **Database:** [Supabase](https://supabase.com/) (PostgreSQL)  
+- **API:** Supabase Auto-generated REST API  
+- **Authentication:** Supabase Auth (ready for implementation)  
+- **Storage:** Supabase Storage (for images)  
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Development Tools
+- **Package Manager:** npm  
+- **Version Control:** Git & GitHub  
+- **Code Quality:** ESLint  
+- **Deployment:** Vercel (or Netlify)  
