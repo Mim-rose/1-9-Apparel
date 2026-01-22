@@ -3,7 +3,7 @@
 A modern, full-stack e-commerce product filtering system with real-time search, category filtering, and dynamic sorting. Built with Next.js 14 App Router and Supabase backend.
 
 ## 🔗 Live Demo
-[View on Vercel](https://your-vercel-project-url.vercel.app)
+[View on Vercel](https://1-9-apparel.vercel.app)
 
 ## ✨ Features
 
