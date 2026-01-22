@@ -4,11 +4,11 @@ import Navbar from '@/components/Navbar'
 
 export const metadata: Metadata = {
   title: '1&9 Apparel',
-  description: 'Modern fashion store'
+  description: 'Modern fashion store',
 }
 
 export default function RootLayout({
-  children
+  children,
 }: {
   children: React.ReactNode
 }) {
